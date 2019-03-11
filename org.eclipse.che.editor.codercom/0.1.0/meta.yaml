@@ -1,5 +1,5 @@
 id: org.eclipse.che.editor.codercom
-version: 1.0.0
+version: 0.1.0
 type: Che Editor
 name: codercom-editor
 title: Coder.com editor in Che
