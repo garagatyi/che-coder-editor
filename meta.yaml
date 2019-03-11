@@ -1,0 +1,12 @@
+id: org.eclipse.che.editor.codercom
+version: 1.0.0
+type: Che Editor
+name: codercom-editor
+title: Coder.com editor in Che
+description: Coder.com editor which VS Code instance running in a container
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+url: https://raw.githubusercontent.com/garagatyi/che-coder-editor/master/che-plugin.yaml
+publisher: Red Hat, Inc.
+category: Editor
+repository: https://github.com/garagatyi/che-coder-editor/
+firstPublicationDate: "2019-03-11"
