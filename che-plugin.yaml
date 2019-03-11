@@ -14,7 +14,7 @@ endpoints:
       type: ide
 containers:
  - name: codercom
-   image: codercom/code-server:latest
+   image: garagatyi/che-codercom-editor:v010
    mountSources: true
    ports:
        - exposedPort: 8843
