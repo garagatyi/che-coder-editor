@@ -1,0 +1,21 @@
+version: 1.0.0
+type: Che Editor
+name: codercom-editor
+id: org.eclipse.che.editor.codercom
+title: Coder.com editor in Che
+description: Coder.com editor which VS Code instance running in a container
+icon: https://www.eclipse.org/che/images/logo-eclipseche.svg
+endpoints:
+ -  name: "codercom"
+    public: true
+    targetPort: 8843
+    attributes:
+      protocol: http
+      type: ide
+containers:
+ - name: codercom
+   image: codercom/code-server:latest
+   mountSources: true
+   ports:
+       - exposedPort: 8843
+   memoryLimit: "1024M"
