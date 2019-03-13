@@ -1,2 +1,2 @@
-FROM garagatyi/che-codercom-editor:v010
-CMD ["/projects", "--allow-http", "--no-auth"]
+FROM chinodesuuu/coder:openshift
+CMD ["code-server", "--port=8843", "--host=0.0.0.0" , "--allow-http", "--no-auth", "/projects"]
